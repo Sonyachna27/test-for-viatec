@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/test-for-viatec/static/css/main.11b752b6.css",
-    "main.js": "/test-for-viatec/static/js/main.349242d7.js",
+    "main.js": "/test-for-viatec/static/js/main.126c47da.js",
     "static/js/787.97a945da.chunk.js": "/test-for-viatec/static/js/787.97a945da.chunk.js",
     "index.html": "/test-for-viatec/index.html",
     "main.11b752b6.css.map": "/test-for-viatec/static/css/main.11b752b6.css.map",
-    "main.349242d7.js.map": "/test-for-viatec/static/js/main.349242d7.js.map",
+    "main.126c47da.js.map": "/test-for-viatec/static/js/main.126c47da.js.map",
     "787.97a945da.chunk.js.map": "/test-for-viatec/static/js/787.97a945da.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.11b752b6.css",
-    "static/js/main.349242d7.js"
+    "static/js/main.126c47da.js"
   ]
 }

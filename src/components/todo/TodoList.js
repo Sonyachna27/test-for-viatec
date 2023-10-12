@@ -43,8 +43,8 @@ const TodoList = () => {
         <section>
         <Stack className='container-md' gap={5}>
 <Container className='top'>
-                <Row className="justify-content-md-center" xs={2} md={4} lg={6}>
-                <Col className='center'>
+                <Row className="justify-content-md-center" sm={3} xs={1}>
+                <Col className='center' >
                 <Form.Check
                     inline
                     label="Done"
@@ -74,9 +74,9 @@ const TodoList = () => {
                 </Row>
                 </Container>
             {filteredTasks.map((task) => (
-                <Container className='top'>
+                <Container className='top' >
                 
-                    <Row className='center'>
+                    <Row className='center' xs={1} sm={4} >
                     <Col>
                     <p  >{task.name}</p>
                     </Col>
@@ -95,7 +95,7 @@ const TodoList = () => {
                     </Col>
                     
                     <Col>
-                    <Stack gap={2} className="col-sm ">
+                    <Stack gap={2} className="col-sm">
                     <RenderTask id={task.id} />
                     <Button variant="danger" onClick={() => onDeleteTask(task.id)}>Delete</Button>
                     </Stack>
